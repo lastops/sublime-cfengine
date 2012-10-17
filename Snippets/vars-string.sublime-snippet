@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>string</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>string variable</description>
+    <content><![CDATA[
+"${1:varname}"      string => "${2:value}";
+]]></content>
+</snippet>

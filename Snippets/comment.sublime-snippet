@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>comment</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>comment declaration</description>
+    <content><![CDATA[
+comment     =>      "${1:This does that.}";
+]]></content>
+</snippet>

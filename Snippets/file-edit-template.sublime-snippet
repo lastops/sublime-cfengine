@@ -1,0 +1,13 @@
+<snippet>
+    <tabTrigger>etmpl</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>Expand template promices</description>
+    <content><![CDATA[
+"${1:/path/to/file}"
+    create          => "${2:true}",
+    comment         => "${3:This does that.}",
+    perms           =>  mog( "${4:644}", "${5:root}", "${6:root}"),
+    edit_template   => "${7:/path/to/template/}",
+    classes         => if_repaired("${8:class_name}");
+]]></content>
+</snippet>
