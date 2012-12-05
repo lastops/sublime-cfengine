@@ -18,13 +18,13 @@
     <key>firstLineMatch</key>
     <string>^#!/.*\bcfengine[0-9.-]*\b</string>
     <key>foldingStartMarker</key>
-    <string>^\s*(def|class)\s+([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
+    <string>^\s*(bundle)\s*([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
     <key>foldingStopMarker</key>
     <string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
     <key>keyEquivalent</key>
     <string>^~P</string>
     <key>name</key>
-    <string>cfengine</string>
+    <string>Cfengine3</string>
     <key>patterns</key>
     <array>
         <dict>
@@ -225,7 +225,8 @@
         </dict>
         <dict>
             <key>begin</key>
-            <string>^\s*(class)\s+(?=[a-zA-Z_][a-zA-Z_0-9]*\s*\()</string>
+            <!-- <string>^\s*(class)\s+(?=[a-zA-Z_][a-zA-Z_0-9]*\s*\()</string> -->
+            <string>/[^:#]\+::\s*$/</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -944,11 +945,11 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(\[)(\s*(\]))\b</string>
+            <string>(\{)(\s*(\}))\b</string>
         </dict>
         <dict>
             <key>begin</key>
-            <string>(\[)</string>
+            <string>(\{)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -958,7 +959,7 @@
                 </dict>
             </dict>
             <key>end</key>
-            <string>(\])</string>
+            <string>(\})</string>
             <key>endCaptures</key>
             <dict>
                 <key>1</key>
@@ -973,11 +974,11 @@
             <array>
                 <dict>
                     <key>begin</key>
-                    <string>(?&lt;=\[|\,)\s*(?![\],])</string>
+                    <string>(?&lt;=\{|\,)\s*(?!{\},})</string>
                     <key>contentName</key>
                     <string>meta.structure.list.item.cfengine</string>
                     <key>end</key>
-                    <string>\s*(?:(,)|(?=\]))</string>
+                    <string>\s*(?:(,)|(?=\}))</string>
                     <key>endCaptures</key>
                     <dict>
                         <key>1</key>
@@ -1142,7 +1143,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                all|any|cfengin|vars|files|services|packages|processes|commands|reports
+                all|linux|debian|any|cfengine|vars|roles|access|files|services|packages|processes|commands|reports|acl|alerts|binservers|broadcast|control||main|classes|copy|defaultroute|disks|directories|disable|editfiles|files|filters|groups|homeservers|ignore|import|interfaces|links|mailserver|methods|miscmounts|mountables|processes|packages|rename|required|resolve|shellcommands|tidy|unmount
             )\b</string>
             <key>name</key>
             <string>support.function.builtin.cfengine</string>
@@ -1151,7 +1152,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action
+                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action|admit|build_directory|report_output|style_sheet|forgetrate|histograms|hosts|denybadclocks|allowconnects|allowallconnects|trustkeysfrom|skipverify|allowusers|maxconnections|slist|ifelapsed|skipidentify|environment|splaytime|mailto|mailfrom|smtpserver|exec_command
             )\b</string>
             <key>name</key>
             <string>support.type.cfengine</string>
@@ -1441,7 +1442,7 @@
         <key>illegal_names</key>
         <dict>
             <key>match</key>
-            <string>\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|bundlesequence|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield)\b</string>
+            <string>\b(and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|bundlesequence|inputs|version|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield)\b</string>
             <key>name</key>
             <string>invalid.illegal.name.cfengine</string>
         </dict>
@@ -1529,7 +1530,7 @@
             <key>comment</key>
             <string>magic variables which a class/module may have.</string>
             <key>match</key>
-            <string>\b__(all|bases|class|debug|dict|doc|file|members|metaclass|methods|name|slots|weakref)__\b</string>
+            <string>\b__(bases|class|debug|dict|doc|file|members|metaclass|methods|name|slots|weakref)__\b</string>
             <key>name</key>
             <string>support.variable.magic.cfengine</string>
         </dict>

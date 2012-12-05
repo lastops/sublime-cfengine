@@ -6,34 +6,34 @@
 bundle agent ${1:bundlename}
     {
         vars:
-            ${1:}
-
-        classes:
             ${2:}
 
-        files:
+        classes:
             ${3:}
 
-        packages:
+        files:
             ${4:}
 
-        methods:
+        packages:
             ${5:}
 
-        processes:
+        methods:
             ${6:}
 
-        services:
+        processes:
             ${7:}
 
-        commands:
+        services:
             ${8:}
 
-        reports:
+        commands:
             ${9:}
 
-        storage:
+        reports:
             ${10:}
+
+        storage:
+            ${11:}
 
 }]]></content>
 </snippet>
