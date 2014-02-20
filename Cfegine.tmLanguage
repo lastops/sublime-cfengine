@@ -176,7 +176,7 @@
             <key>match</key>
             <string>\b\w+\s*(?==&gt;)</string>
             <key>name</key>
-            <string>constant.other.key.perl</string>
+            <string>constant.other.key.cfengine</string>
         </dict>
         <dict>
             <key>match</key>
@@ -1158,7 +1158,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action|admit|build_directory|report_output|style_sheet|forgetrate|histograms|hosts|denybadclocks|allowconnects|allowallconnects|trustkeysfrom|skipverify|allowusers|maxconnections|slist|ifelapsed|skipidentify|environment|splaytime|mailto|mailfrom|smtpserver|exec_command
+                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action|admit|build_directory|report_output|style_sheet|forgetrate|histograms|hosts|denybadclocks|allowconnects|allowallconnects|trustkeysfrom|skipverify|allowusers|maxconnections|slist|ifelapsed|skipidentify|environment|splaytime|mailto|mailfrom|smtpserver|exec_command|process_select|process_count
             )\b</string>
             <key>name</key>
             <string>support.type.cfengine</string>
