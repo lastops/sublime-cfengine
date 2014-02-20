@@ -18,7 +18,7 @@
     <key>firstLineMatch</key>
     <string>^#!/.*\bcfengine[0-9.-]*\b</string>
     <key>foldingStartMarker</key>
-    <string>^\s*(bundle)\s*([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
+    <string>^\s*(bundle|body)\s*([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
     <key>foldingStopMarker</key>
     <string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
     <key>keyEquivalent</key>
@@ -27,6 +27,50 @@
     <string>Cfengine3</string>
     <key>patterns</key>
     <array>
+        <dict>
+            <key>begin</key>
+            <string>^\s*(?:body|bundle)\s+(?:\S+\s*)</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.definition.function.begin.cfengine</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>(\s|\n)*(\{)</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.definition.function.end.cfengine</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>source.cfengine</string>
+                </dict>
+            </dict>
+            <key>contentName</key>
+            <string>entity.name.function.cfengine</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#builtin_functions</string>
+                </dict>
+                <dict>
+                    <key>include</key>
+                    <string>#builtin_types</string>
+                </dict>
+                <dict>
+                    <key>include</key>
+                    <string>#embedded_comment</string>
+                </dict>
+            </array>
+        </dict>
         <dict>
             <key>captures</key>
             <dict>
@@ -1169,6 +1213,21 @@
             <string>(?i:%(\([a-z_]+\))?#?0?\-?[ ]?\+?([0-9]*|\*)(\.([0-9]*|\*))?[hL]?[a-z%])</string>
             <key>name</key>
             <string>constant.other.placeholder.cfengine</string>
+        </dict>
+        <key>embedded_comment</key>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.comment.cfengine</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(#).*$\n?</string>
+            <key>name</key>
+            <string>comment.line.number-sign.cfengine</string>
         </dict>
         <key>docstrings</key>
         <dict>
