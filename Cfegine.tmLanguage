@@ -29,7 +29,7 @@
     <array>
         <dict>
             <key>begin</key>
-            <string>^\s*(?:body|bundle)\s+(?:\S+\s*)</string>
+            <string>^\s*(?:body|bundle)\s+(?:\S+\s*)([a-zA-Z_][a-zA-Z_0-9]*)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>0</key>
@@ -37,9 +37,14 @@
                     <key>name</key>
                     <string>keyword.definition.function.begin.cfengine</string>
                 </dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function.cfengine</string>
+                </dict>
             </dict>
             <key>end</key>
-            <string>(\s|\n)*(\{)</string>
+            <string>(?:\(|\{)</string>
             <key>endCaptures</key>
             <dict>
                 <key>1</key>
@@ -47,16 +52,18 @@
                     <key>name</key>
                     <string>keyword.definition.function.end.cfengine</string>
                 </dict>
-                <key>2</key>
+                <key>0</key>
                 <dict>
                     <key>name</key>
                     <string>source.cfengine</string>
                 </dict>
             </dict>
-            <key>contentName</key>
-            <string>entity.name.function.cfengine</string>
             <key>patterns</key>
             <array>
+                <dict>
+                    <key>include</key>
+                    <string>#embedded_comment</string>
+                </dict>
                 <dict>
                     <key>include</key>
                     <string>#builtin_functions</string>
@@ -64,10 +71,6 @@
                 <dict>
                     <key>include</key>
                     <string>#builtin_types</string>
-                </dict>
-                <dict>
-                    <key>include</key>
-                    <string>#embedded_comment</string>
                 </dict>
             </array>
         </dict>
