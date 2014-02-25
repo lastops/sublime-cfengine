@@ -18,7 +18,7 @@
     <key>firstLineMatch</key>
     <string>^#!/.*\bcfengine[0-9.-]*\b</string>
     <key>foldingStartMarker</key>
-    <string>^\s*(bundle)\s*([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
+    <string>^\s*(body|bundle)\s*([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*"""(?=.)(?!.*""")</string>
     <key>foldingStopMarker</key>
     <string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
     <key>keyEquivalent</key>
@@ -27,6 +27,55 @@
     <string>Cfengine3</string>
     <key>patterns</key>
     <array>
+        <dict>
+            <key>begin</key>
+            <string>^\s*(body|bundle)\s+(\S+\s*)([a-zA-Z_][a-zA-Z_0-9]*)</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.definition.function.begin.cfengine</string>
+                </dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.language.cfengine</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>source.cfengine</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function.cfengine</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>(?:(?:\((.+?)\))|\{)</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>source.cfengine</string>
+                </dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.variable.cfengine</string>
+                </dict>
+            </dict>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#embedded_comment</string>
+                </dict>
+            </array>
+        </dict>
         <dict>
             <key>captures</key>
             <dict>
@@ -134,7 +183,7 @@
             <key>comment</key>
             <string>keywords that delimit flow blocks or alter flow from within a block</string>
             <key>match</key>
-            <string>\b(elif|else|except|finally|for|if|try|while|with|break|continue|pass|raise|return|yield|bundle)\b</string>
+            <string>\b(elif|else|except|finally|for|if|try|while|with|break|continue|pass|raise|return|yield)\b</string>
             <key>name</key>
             <string>keyword.control.flow.cfengine</string>
         </dict>
@@ -909,6 +958,12 @@
             <string>#string_quoted_double</string>
         </dict>
         <dict>
+            <key>match</key>
+            <string>\b\w+\s*(?==&gt;)</string>
+            <key>name</key>
+            <string>constant.other.key.cfengine</string>
+        </dict>
+        <dict>
             <key>include</key>
             <string>#dotted_name</string>
         </dict>
@@ -1143,7 +1198,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                all|linux|debian|any|cfengine|vars|roles|access|files|services|packages|processes|commands|reports|acl|alerts|binservers|broadcast|control||main|classes|copy|defaultroute|disks|directories|disable|editfiles|files|filters|groups|homeservers|ignore|import|interfaces|links|mailserver|methods|miscmounts|mountables|processes|packages|rename|required|resolve|shellcommands|tidy|unmount
+                all|linux|debian|any|cfengine|vars|roles|access|files|services|packages|processes|commands|reports|acl|alerts|binservers|broadcast|control|main|classes|copy|defaultroute|disks|directories|disable|editfiles|files|filters|groups|homeservers|ignore|import|interfaces|links|mailserver|methods|miscmounts|mountables|processes|packages|rename|required|resolve|shellcommands|tidy|unmount|redhat|ubuntu|gentoo
             )\b</string>
             <key>name</key>
             <string>support.function.builtin.cfengine</string>
@@ -1152,7 +1207,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action|admit|build_directory|report_output|style_sheet|forgetrate|histograms|hosts|denybadclocks|allowconnects|allowallconnects|trustkeysfrom|skipverify|allowusers|maxconnections|slist|ifelapsed|skipidentify|environment|splaytime|mailto|mailfrom|smtpserver|exec_command
+                delete_lines|insert_lines|create|string|agent|edit_line|common|cfengine|comment|handle|classes|acl|changes|copy_from|create|delete|depth_search|edit_defaults|edit_line|edit_template|edit_xml|file_select|link_from|move_obstructions|pathtype|perms|rename|repository|touch|transformer|action|admit|build_directory|report_output|style_sheet|forgetrate|histograms|hosts|denybadclocks|allowconnects|allowallconnects|trustkeysfrom|skipverify|allowusers|maxconnections|slist|ifelapsed|skipidentify|environment|splaytime|mailto|mailfrom|smtpserver|exec_command|process_select|process_count
             )\b</string>
             <key>name</key>
             <string>support.type.cfengine</string>
@@ -1163,6 +1218,21 @@
             <string>(?i:%(\([a-z_]+\))?#?0?\-?[ ]?\+?([0-9]*|\*)(\.([0-9]*|\*))?[hL]?[a-z%])</string>
             <key>name</key>
             <string>constant.other.placeholder.cfengine</string>
+        </dict>
+        <key>embedded_comment</key>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.comment.cfengine</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(#).*$\n?</string>
+            <key>name</key>
+            <string>comment.line.number-sign.cfengine</string>
         </dict>
         <key>docstrings</key>
         <dict>
