@@ -1198,7 +1198,7 @@
         <dict>
             <key>match</key>
             <string>(?x)\b(
-                all|linux|debian|any|cfengine|vars|roles|access|files|services|packages|processes|commands|reports|acl|alerts|binservers|broadcast|control|main|classes|copy|defaultroute|disks|directories|disable|editfiles|files|filters|groups|homeservers|ignore|import|interfaces|links|mailserver|methods|miscmounts|mountables|processes|packages|rename|required|resolve|shellcommands|tidy|unmount|redhat|ubuntu|gentoo
+                all|linux|debian|any|cfengine|vars|roles|access|files|services|packages|processes|commands|reports|acl|alerts|binservers|broadcast|control|main|classes|copy|defaultroute|disks|directories|disable|editfiles|files|filters|groups|homeservers|ignore|import|interfaces|links|mailserver|methods|miscmounts|mountables|processes|packages|rename|required|resolve|shellcommands|tidy|unmount|redhat|ubuntu|gentoo|storage
             )\b</string>
             <key>name</key>
             <string>support.function.builtin.cfengine</string>
