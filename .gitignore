@@ -2,3 +2,5 @@
 *.dev
 *.json
 *.plist
+CFEngine3.sublime-project
+CFEngine3.sublime-workspace
