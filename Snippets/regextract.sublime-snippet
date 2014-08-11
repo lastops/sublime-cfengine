@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[regextract(${1:regex}, ${2:string}, ${3:backref})]]></content>
+	<tabTrigger>regextract</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: regextract</description>
+</snippet>

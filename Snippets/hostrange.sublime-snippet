@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[hostrange(${1:prefix}, ${2:range})]]></content>
+	<tabTrigger>hostrange</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: hostrange</description>
+</snippet>

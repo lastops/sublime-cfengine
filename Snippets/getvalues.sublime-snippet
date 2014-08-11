@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[getvalues(${1:varref})]]></content>
+	<tabTrigger>getvalues</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: getvalues</description>
+</snippet>

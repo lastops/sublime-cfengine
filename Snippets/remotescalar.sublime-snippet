@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[remotescalar(${1:id}, ${2:server}, ${3:encrypt})]]></content>
+	<tabTrigger>remotescalar</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: remotescalar</description>
+</snippet>

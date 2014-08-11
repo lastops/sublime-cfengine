@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[concat(${1:...})]]></content>
+	<tabTrigger>concat</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: concat</description>
+</snippet>
