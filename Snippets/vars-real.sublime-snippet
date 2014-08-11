@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>real</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>real variable</description>
+    <content><![CDATA[
+"${1:varname}"      real => { "${2:value1}" };
+]]></content>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>ilist</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>ilist variable</description>
+    <content><![CDATA[
+"${1:varname}"      ilist => { "${2:value1}" };
+]]></content>
+</snippet>
