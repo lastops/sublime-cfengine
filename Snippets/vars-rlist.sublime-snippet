@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>rlist</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>rlist variable</description>
+    <content><![CDATA[
+"${1:varname}"      rlist => { "${2:value1}" };
+]]></content>
+</snippet>

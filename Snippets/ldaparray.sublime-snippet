@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ldaparray(${1:array}, ${2:uri}, ${3:dn}, ${4:filter}, ${5:scope}, ${6:security})]]></content>
+	<tabTrigger>ldaparray</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: ldaparray</description>
+</snippet>

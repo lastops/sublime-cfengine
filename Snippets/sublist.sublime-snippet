@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[sublist(${1:list}, ${2:head_or_tail}, ${3:max_elements})]]></content>
+	<tabTrigger>sublist</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: sublist</description>
+</snippet>

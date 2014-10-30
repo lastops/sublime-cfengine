@@ -1,39 +1,39 @@
 <snippet>
-    <tabTrigger>bundla</tabTrigger>
-    <scope>source.cfengine</scope>
-    <description>Bundle agent</description>
-    <content><![CDATA[
+	<tabTrigger>bundla</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>Bundle agent</description>
+	<content><![CDATA[
 bundle agent ${1:bundlename}
-    {
-        vars:
-            ${2:}
+	{
+		vars:
+			${2:}
 
-        classes:
-            ${3:}
+		classes:
+			${3:}
 
-        files:
-            ${4:}
+		files:
+			${4:}
 
-        packages:
-            ${5:}
+		packages:
+			${5:}
 
-        methods:
-            ${6:}
+		methods:
+			${6:}
 
-        processes:
-            ${7:}
+		processes:
+			${7:}
 
-        services:
-            ${8:}
+		services:
+			${8:}
 
-        commands:
-            ${9:}
+		commands:
+			${9:}
 
-        reports:
-            ${10:}
+		reports:
+			${10:}
 
-        storage:
-            ${11:}
+		storage:
+			${11:}
 
 }]]></content>
 </snippet>

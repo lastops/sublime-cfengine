@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ldaplist(${1:uri}, ${2:dn}, ${3:filter}, ${4:record}, ${5:scope}, ${6:security})]]></content>
+	<tabTrigger>ldaplist</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: ldaplist</description>
+</snippet>

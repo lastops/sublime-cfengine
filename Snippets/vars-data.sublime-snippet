@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>data</tabTrigger>
+    <scope>source.cfengine</scope>
+    <description>data variable</description>
+    <content><![CDATA[
+"${1:varname}"      data => { "${2:value1}" };
+]]></content>
+</snippet>

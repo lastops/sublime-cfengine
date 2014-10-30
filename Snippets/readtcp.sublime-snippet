@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[readtcp(${1:hostnameip}, ${2:port}, ${3:sendstring}, ${4:maxbytes})]]></content>
+	<tabTrigger>readtcp</tabTrigger>
+	<scope>source.cfengine</scope>
+	<description>CFEngine3: readtcp</description>
+</snippet>
