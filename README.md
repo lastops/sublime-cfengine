@@ -1,4 +1,4 @@
-# Sublime Text 2 Snippets And Language Highlighting For Cfengine 3
+# Sublime Text 2 and Sublime Text 3 Snippets And Language Highlighting For Cfengine 3
 
 ## Disclaimer
 
