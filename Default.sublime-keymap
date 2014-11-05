@@ -1,0 +1,18 @@
+[
+	{ "keys": ["$"],
+	  "command": "insert_snippet",
+	  "args": { "contents": "\\$(${1:$SELECTION})$0" },
+	  "context": [
+			{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+			{ "key": "selector", "operator": "equal", "operand": "source.cfengine" }
+		]
+	},
+	{ "keys": ["@"],
+	  "command": "insert_snippet",
+	  "args": { "contents": "@(${1:$SELECTION})$0" },
+	  "context": [
+			{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+			{ "key": "selector", "operator": "equal", "operand": "source.cfengine" }
+		]
+	}
+]
