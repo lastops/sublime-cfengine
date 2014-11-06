@@ -183,7 +183,7 @@
             <key>comment</key>
             <string>keywords that delimit flow blocks or alter flow from within a block</string>
             <key>match</key>
-            <string>\b([().&!|:a-zA-Z_]+)\:\:[\s+|\n]</string>
+            <string>\b([().&!|:a-zA-Z_0-9_]+)\:\:[\s+|\n]</string>
             <key>name</key>
             <string>keyword.control.flow.cfengine</string>
         </dict>
