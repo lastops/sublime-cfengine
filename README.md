@@ -1,6 +1,18 @@
-# Sublime Text 2 and Sublime Text 3 Snippets And Language Highlighting For Cfengine 3
+# CFEngine language highlighting for Sublime Text
+*v.0.1.0*
+
+Sublime Text 2 and Sublime Text 3 are both supported.
 
 ### Installation
+
+#### Using Package Manager
+
+1. Ctrl + Shift + p (Linux, Windows) or Cmd + Shift + p (OS X).
+2. Type "install package"
+3. Type "cfengine"
+4. Enter
+
+For more information: https://sublime.wbond.net/docs/usage
 
 #### Manual Installation
 
@@ -31,3 +43,4 @@
   - More information: http://sublimetext.info/docs/en/basic_concepts.html
 
 2. git clone https://github.com/lastops/sublime-cfengine.git
+
