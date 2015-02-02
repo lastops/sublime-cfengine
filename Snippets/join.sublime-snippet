@@ -2,5 +2,5 @@
 	<content><![CDATA[join(${1:glue}, ${2:list})]]></content>
 	<tabTrigger>join</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: join</description>
+	<description>CFEngine: join</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[islink(${1:filename})]]></content>
 	<tabTrigger>islink</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: islink</description>
+	<description>CFEngine: islink</description>
 </snippet>

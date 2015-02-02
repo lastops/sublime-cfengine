@@ -2,5 +2,5 @@
 	<content><![CDATA[rrange(${1:arg1}, ${2:arg2})]]></content>
 	<tabTrigger>rrange</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: rrange</description>
+	<description>CFEngine: rrange</description>
 </snippet>

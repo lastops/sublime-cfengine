@@ -2,5 +2,5 @@
 	<content><![CDATA[variablesmatching(${1:name}, ${2:tag1}, ${3:tag2}, ${4:...})]]></content>
 	<tabTrigger>variablesmatching</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: variablesmatching</description>
+	<description>CFEngine: variablesmatching</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[returnszero(${1:command}, ${2:shell})]]></content>
 	<tabTrigger>returnszero</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: returnszero</description>
+	<description>CFEngine: returnszero</description>
 </snippet>

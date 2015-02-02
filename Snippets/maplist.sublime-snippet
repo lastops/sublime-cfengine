@@ -2,5 +2,5 @@
 	<content><![CDATA[maplist(${1:pattern}, ${2:list})]]></content>
 	<tabTrigger>maplist</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: maplist</description>
+	<description>CFEngine: maplist</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[isexecutable(${1:filename})]]></content>
 	<tabTrigger>isexecutable</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: isexecutable</description>
+	<description>CFEngine: isexecutable</description>
 </snippet>

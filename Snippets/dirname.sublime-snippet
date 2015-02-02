@@ -2,5 +2,5 @@
 	<content><![CDATA[dirname(${1:path})]]></content>
 	<tabTrigger>dirname</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: dirname</description>
+	<description>CFEngine: dirname</description>
 </snippet>

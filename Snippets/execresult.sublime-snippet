@@ -2,5 +2,5 @@
 	<content><![CDATA[execresult(${1:command}, ${2:shell})]]></content>
 	<tabTrigger>execresult</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: execresult</description>
+	<description>CFEngine: execresult</description>
 </snippet>

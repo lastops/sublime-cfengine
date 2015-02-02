@@ -2,5 +2,5 @@
 	<content><![CDATA[data_readstringarrayidx(${1:filename}, ${2:comment}, ${3:split}, ${4:maxentries}, ${5:maxbytes})]]></content>
 	<tabTrigger>data_readstringarrayidx</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: data_readstringarrayidx</description>
+	<description>CFEngine: data_readstringarrayidx</description>
 </snippet>

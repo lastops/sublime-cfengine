@@ -30,4 +30,4 @@
   </table>
   - More information: http://sublimetext.info/docs/en/basic_concepts.html
 
-2. git clone https://github.com/lastops/sublime-cfengine3.git
+2. git clone https://github.com/lastops/sublime-cfengine.git

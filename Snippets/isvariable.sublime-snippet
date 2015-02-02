@@ -2,5 +2,5 @@
 	<content><![CDATA[isvariable(${1:var})]]></content>
 	<tabTrigger>isvariable</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: isvariable</description>
+	<description>CFEngine: isvariable</description>
 </snippet>

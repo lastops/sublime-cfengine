@@ -2,5 +2,5 @@
 	<content><![CDATA[usemodule(${1:module}, ${2:args})]]></content>
 	<tabTrigger>usemodule</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: usemodule</description>
+	<description>CFEngine: usemodule</description>
 </snippet>

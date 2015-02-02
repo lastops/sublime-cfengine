@@ -2,5 +2,5 @@
 	<content><![CDATA[format(${1:string}, ${2:...})]]></content>
 	<tabTrigger>format</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: format</description>
+	<description>CFEngine: format</description>
 </snippet>

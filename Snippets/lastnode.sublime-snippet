@@ -2,5 +2,5 @@
 	<content><![CDATA[lastnode(${1:string}, ${2:separator})]]></content>
 	<tabTrigger>lastnode</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: lastnode</description>
+	<description>CFEngine: lastnode</description>
 </snippet>

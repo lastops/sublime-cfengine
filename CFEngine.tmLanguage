@@ -24,7 +24,7 @@
     <key>keyEquivalent</key>
     <string>^~P</string>
     <key>name</key>
-    <string>Cfengine3</string>
+    <string>CFEngine</string>
     <key>patterns</key>
     <array>
         <dict>

@@ -2,5 +2,5 @@
 	<content><![CDATA[storejson(${1:data_container})]]></content>
 	<tabTrigger>storejson</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: storejson</description>
+	<description>CFEngine: storejson</description>
 </snippet>

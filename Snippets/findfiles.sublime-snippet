@@ -2,5 +2,5 @@
 	<content><![CDATA[findfiles(${1:glob1}, ${2:glob2}, ${3:...})]]></content>
 	<tabTrigger>findfiles</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: findfiles</description>
+	<description>CFEngine: findfiles</description>
 </snippet>

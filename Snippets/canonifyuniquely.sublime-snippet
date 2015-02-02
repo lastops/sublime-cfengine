@@ -2,5 +2,5 @@
 	<content><![CDATA[canonifyuniquely(${1:text})]]></content>
 	<tabTrigger>canonifyuniquely</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: canonifyuniquely</description>
+	<description>CFEngine: canonifyuniquely</description>
 </snippet>

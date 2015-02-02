@@ -2,5 +2,5 @@
 	<content><![CDATA[every(${1:regex}, ${2:list})]]></content>
 	<tabTrigger>every</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: every</description>
+	<description>CFEngine: every</description>
 </snippet>

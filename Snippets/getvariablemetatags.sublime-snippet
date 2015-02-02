@@ -2,5 +2,5 @@
 	<content><![CDATA[getvariablemetatags(${1:varname})]]></content>
 	<tabTrigger>getvariablemetatags</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getvariablemetatags</description>
+	<description>CFEngine: getvariablemetatags</description>
 </snippet>

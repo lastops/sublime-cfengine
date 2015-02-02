@@ -2,5 +2,5 @@
 	<content><![CDATA[hubknowledge(${1:id})]]></content>
 	<tabTrigger>hubknowledge</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hubknowledge</description>
+	<description>CFEngine: hubknowledge</description>
 </snippet>

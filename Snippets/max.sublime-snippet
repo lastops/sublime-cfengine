@@ -2,5 +2,5 @@
 	<content><![CDATA[max(${1:list}, ${2:sortmode})]]></content>
 	<tabTrigger>max</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: max</description>
+	<description>CFEngine: max</description>
 </snippet>

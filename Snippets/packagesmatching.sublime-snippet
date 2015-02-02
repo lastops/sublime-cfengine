@@ -2,5 +2,5 @@
 	<content><![CDATA[packagesmatching(${1:package_regex}, ${2:version_regex}, ${3:arch_regex}, ${4:method_regex})]]></content>
 	<tabTrigger>packagesmatching</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: packagesmatching</description>
+	<description>CFEngine: packagesmatching</description>
 </snippet>

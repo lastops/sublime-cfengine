@@ -2,5 +2,5 @@
 	<content><![CDATA[mean(${1:list})]]></content>
 	<tabTrigger>mean</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: mean</description>
+	<description>CFEngine: mean</description>
 </snippet>

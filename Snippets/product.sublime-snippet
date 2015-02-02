@@ -2,5 +2,5 @@
 	<content><![CDATA[product(${1:list})]]></content>
 	<tabTrigger>product</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: product</description>
+	<description>CFEngine: product</description>
 </snippet>

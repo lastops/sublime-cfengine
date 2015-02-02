@@ -2,5 +2,5 @@
 	<content><![CDATA[readintlist(${1:filename}, ${2:comment}, ${3:split}, ${4:maxentries}, ${5:maxbytes})]]></content>
 	<tabTrigger>readintlist</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: readintlist</description>
+	<description>CFEngine: readintlist</description>
 </snippet>

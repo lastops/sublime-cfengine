@@ -2,5 +2,5 @@
 	<content><![CDATA[getclassmetatags(${1:classname})]]></content>
 	<tabTrigger>getclassmetatags</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getclassmetatags</description>
+	<description>CFEngine: getclassmetatags</description>
 </snippet>

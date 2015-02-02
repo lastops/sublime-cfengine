@@ -2,5 +2,5 @@
 	<content><![CDATA[datastate(${1:})]]></content>
 	<tabTrigger>datastate</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: datastate</description>
+	<description>CFEngine: datastate</description>
 </snippet>

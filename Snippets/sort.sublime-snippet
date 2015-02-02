@@ -2,5 +2,5 @@
 	<content><![CDATA[sort(${1:list}, ${2:mode})]]></content>
 	<tabTrigger>sort</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: sort</description>
+	<description>CFEngine: sort</description>
 </snippet>

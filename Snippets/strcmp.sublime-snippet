@@ -2,5 +2,5 @@
 	<content><![CDATA[strcmp(${1:string1}, ${2:string2})]]></content>
 	<tabTrigger>strcmp</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: strcmp</description>
+	<description>CFEngine: strcmp</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[classify(${1:text})]]></content>
 	<tabTrigger>classify</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: classify</description>
+	<description>CFEngine: classify</description>
 </snippet>

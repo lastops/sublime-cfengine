@@ -2,5 +2,5 @@
 	<content><![CDATA[hostinnetgroup(${1:netgroup})]]></content>
 	<tabTrigger>hostinnetgroup</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hostinnetgroup</description>
+	<description>CFEngine: hostinnetgroup</description>
 </snippet>

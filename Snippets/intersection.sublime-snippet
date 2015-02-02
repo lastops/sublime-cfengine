@@ -2,5 +2,5 @@
 	<content><![CDATA[intersection(${1:list1}, ${2:list2})]]></content>
 	<tabTrigger>intersection</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: intersection</description>
+	<description>CFEngine: intersection</description>
 </snippet>

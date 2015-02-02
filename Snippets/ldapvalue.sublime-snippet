@@ -2,5 +2,5 @@
 	<content><![CDATA[ldapvalue(${1:uri}, ${2:dn}, ${3:filter}, ${4:record}, ${5:scope}, ${6:security})]]></content>
 	<tabTrigger>ldapvalue</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: ldapvalue</description>
+	<description>CFEngine: ldapvalue</description>
 </snippet>

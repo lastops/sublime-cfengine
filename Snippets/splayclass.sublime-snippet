@@ -2,5 +2,5 @@
 	<content><![CDATA[splayclass(${1:input}, ${2:policy})]]></content>
 	<tabTrigger>splayclass</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: splayclass</description>
+	<description>CFEngine: splayclass</description>
 </snippet>

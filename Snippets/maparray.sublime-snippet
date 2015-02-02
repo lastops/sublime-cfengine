@@ -2,5 +2,5 @@
 	<content><![CDATA[maparray(${1:pattern}, ${2:array})]]></content>
 	<tabTrigger>maparray</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: maparray</description>
+	<description>CFEngine: maparray</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[getindices(${1:varref})]]></content>
 	<tabTrigger>getindices</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getindices</description>
+	<description>CFEngine: getindices</description>
 </snippet>

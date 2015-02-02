@@ -2,5 +2,5 @@
 	<content><![CDATA[ifelse(${1:...})]]></content>
 	<tabTrigger>ifelse</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: ifelse</description>
+	<description>CFEngine: ifelse</description>
 </snippet>

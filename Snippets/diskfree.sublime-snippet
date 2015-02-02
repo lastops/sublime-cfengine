@@ -2,5 +2,5 @@
 	<content><![CDATA[diskfree(${1:path})]]></content>
 	<tabTrigger>diskfree</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: diskfree</description>
+	<description>CFEngine: diskfree</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[lsdir(${1:path}, ${2:regex}, ${3:include_base})]]></content>
 	<tabTrigger>lsdir</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: lsdir</description>
+	<description>CFEngine: lsdir</description>
 </snippet>

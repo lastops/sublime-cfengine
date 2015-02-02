@@ -2,5 +2,5 @@
 	<content><![CDATA[hostsseen(${1:horizon}, ${2:seen}, ${3:field})]]></content>
 	<tabTrigger>hostsseen</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hostsseen</description>
+	<description>CFEngine: hostsseen</description>
 </snippet>

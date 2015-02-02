@@ -2,5 +2,5 @@
 	<content><![CDATA[reverse(${1:list})]]></content>
 	<tabTrigger>reverse</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: reverse</description>
+	<description>CFEngine: reverse</description>
 </snippet>

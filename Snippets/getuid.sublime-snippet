@@ -2,5 +2,5 @@
 	<content><![CDATA[getuid(${1:username})]]></content>
 	<tabTrigger>getuid</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getuid</description>
+	<description>CFEngine: getuid</description>
 </snippet>

@@ -2,5 +2,5 @@
 *.dev
 *.json
 *.plist
-CFEngine3.sublime-project
-CFEngine3.sublime-workspace
+CFEngine.sublime-project
+CFEngine.sublime-workspace.DS_Store

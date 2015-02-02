@@ -2,5 +2,5 @@
 	<content><![CDATA[fileexists(${1:filename})]]></content>
 	<tabTrigger>fileexists</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: fileexists</description>
+	<description>CFEngine: fileexists</description>
 </snippet>

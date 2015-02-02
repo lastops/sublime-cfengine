@@ -2,5 +2,5 @@
 	<content><![CDATA[groupexists(${1:group})]]></content>
 	<tabTrigger>groupexists</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: groupexists</description>
+	<description>CFEngine: groupexists</description>
 </snippet>

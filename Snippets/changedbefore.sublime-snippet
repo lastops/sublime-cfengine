@@ -2,5 +2,5 @@
 	<content><![CDATA[changedbefore(${1:newer}, ${2:older})]]></content>
 	<tabTrigger>changedbefore</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: changedbefore</description>
+	<description>CFEngine: changedbefore</description>
 </snippet>

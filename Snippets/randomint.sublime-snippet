@@ -2,5 +2,5 @@
 	<content><![CDATA[randomint(${1:lower}, ${2:upper})]]></content>
 	<tabTrigger>randomint</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: randomint</description>
+	<description>CFEngine: randomint</description>
 </snippet>

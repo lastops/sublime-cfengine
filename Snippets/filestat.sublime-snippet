@@ -2,5 +2,5 @@
 	<content><![CDATA[filestat(${1:filename}, ${2:field})]]></content>
 	<tabTrigger>filestat</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: filestat</description>
+	<description>CFEngine: filestat</description>
 </snippet>

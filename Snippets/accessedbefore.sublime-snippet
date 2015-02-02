@@ -2,5 +2,5 @@
 	<content><![CDATA[accessedbefore(${1:newer}, ${2:older})]]></content>
 	<tabTrigger>accessedbefore</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: accessedbefore</description>
+	<description>CFEngine: accessedbefore</description>
 </snippet>

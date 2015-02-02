@@ -2,5 +2,5 @@
 	<content><![CDATA[shuffle(${1:list}, ${2:seed})]]></content>
 	<tabTrigger>shuffle</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: shuffle</description>
+	<description>CFEngine: shuffle</description>
 </snippet>

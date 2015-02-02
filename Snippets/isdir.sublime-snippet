@@ -2,5 +2,5 @@
 	<content><![CDATA[isdir(${1:filename})]]></content>
 	<tabTrigger>isdir</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: isdir</description>
+	<description>CFEngine: isdir</description>
 </snippet>

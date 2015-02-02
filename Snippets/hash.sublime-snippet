@@ -2,5 +2,5 @@
 	<content><![CDATA[hash(${1:input}, ${2:algorithm})]]></content>
 	<tabTrigger>hash</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hash</description>
+	<description>CFEngine: hash</description>
 </snippet>

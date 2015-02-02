@@ -2,5 +2,5 @@
 	<content><![CDATA[reglist(${1:list}, ${2:regex})]]></content>
 	<tabTrigger>reglist</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: reglist</description>
+	<description>CFEngine: reglist</description>
 </snippet>

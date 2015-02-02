@@ -2,5 +2,5 @@
 	<content><![CDATA[registryvalue(${1:key}, ${2:valueid})]]></content>
 	<tabTrigger>registryvalue</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: registryvalue</description>
+	<description>CFEngine: registryvalue</description>
 </snippet>

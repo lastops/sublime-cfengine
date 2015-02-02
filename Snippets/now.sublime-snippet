@@ -2,5 +2,5 @@
 	<content><![CDATA[now(${1:})]]></content>
 	<tabTrigger>now</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: now</description>
+	<description>CFEngine: now</description>
 </snippet>

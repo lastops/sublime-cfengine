@@ -2,5 +2,5 @@
 	<content><![CDATA[peers(${1:filename}, ${2:regex}, ${3:groupsize})]]></content>
 	<tabTrigger>peers</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: peers</description>
+	<description>CFEngine: peers</description>
 </snippet>

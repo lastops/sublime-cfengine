@@ -2,5 +2,5 @@
 	<content><![CDATA[nth(${1:list_or_container}, ${2:position_or_key})]]></content>
 	<tabTrigger>nth</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: nth</description>
+	<description>CFEngine: nth</description>
 </snippet>

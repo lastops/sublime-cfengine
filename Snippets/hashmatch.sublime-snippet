@@ -2,5 +2,5 @@
 	<content><![CDATA[hashmatch(${1:filename}, ${2:algorithm}, ${3:hash})]]></content>
 	<tabTrigger>hashmatch</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hashmatch</description>
+	<description>CFEngine: hashmatch</description>
 </snippet>

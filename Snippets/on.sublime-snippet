@@ -2,5 +2,5 @@
 	<content><![CDATA[on(${1:year}, ${2:month}, ${3:day}, ${4:hour}, ${5:minute}, ${6:second})]]></content>
 	<tabTrigger>on</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: on</description>
+	<description>CFEngine: on</description>
 </snippet>

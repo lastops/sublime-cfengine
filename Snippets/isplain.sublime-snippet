@@ -2,5 +2,5 @@
 	<content><![CDATA[isplain(${1:filename})]]></content>
 	<tabTrigger>isplain</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: isplain</description>
+	<description>CFEngine: isplain</description>
 </snippet>

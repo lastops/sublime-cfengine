@@ -2,5 +2,5 @@
 	<content><![CDATA[ago(${1:years}, ${2:months}, ${3:days}, ${4:hours}, ${5:minutes}, ${6:seconds})]]></content>
 	<tabTrigger>ago</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: ago</description>
+	<description>CFEngine: ago</description>
 </snippet>

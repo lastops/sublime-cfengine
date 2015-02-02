@@ -2,5 +2,5 @@
 	<content><![CDATA[translatepath(${1:path})]]></content>
 	<tabTrigger>translatepath</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: translatepath</description>
+	<description>CFEngine: translatepath</description>
 </snippet>

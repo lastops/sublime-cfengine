@@ -2,5 +2,5 @@
 	<content><![CDATA[selectservers(${1:hostlist}, ${2:port}, ${3:query}, ${4:regex}, ${5:maxbytes}, ${6:array})]]></content>
 	<tabTrigger>selectservers</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: selectservers</description>
+	<description>CFEngine: selectservers</description>
 </snippet>

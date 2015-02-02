@@ -2,5 +2,5 @@
 	<content><![CDATA[classmatch(${1:regex})]]></content>
 	<tabTrigger>classmatch</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: classmatch</description>
+	<description>CFEngine: classmatch</description>
 </snippet>

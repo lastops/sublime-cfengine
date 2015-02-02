@@ -2,5 +2,5 @@
 	<content><![CDATA[regcmp(${1:regex}, ${2:string})]]></content>
 	<tabTrigger>regcmp</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: regcmp</description>
+	<description>CFEngine: regcmp</description>
 </snippet>

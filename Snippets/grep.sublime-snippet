@@ -2,5 +2,5 @@
 	<content><![CDATA[grep(${1:regex}, ${2:list})]]></content>
 	<tabTrigger>grep</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: grep</description>
+	<description>CFEngine: grep</description>
 </snippet>

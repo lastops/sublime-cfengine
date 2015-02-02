@@ -2,5 +2,5 @@
 	<content><![CDATA[irange(${1:arg1}, ${2:arg2})]]></content>
 	<tabTrigger>irange</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: irange</description>
+	<description>CFEngine: irange</description>
 </snippet>

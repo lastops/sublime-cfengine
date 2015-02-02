@@ -2,5 +2,5 @@
 	<content><![CDATA[countlinesmatching(${1:regex}, ${2:filename})]]></content>
 	<tabTrigger>countlinesmatching</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: countlinesmatching</description>
+	<description>CFEngine: countlinesmatching</description>
 </snippet>

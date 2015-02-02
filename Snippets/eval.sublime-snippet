@@ -2,5 +2,5 @@
 	<content><![CDATA[eval(${1:mode}, ${2:options}, ${3:expression})]]></content>
 	<tabTrigger>eval</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: eval</description>
+	<description>CFEngine: eval</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[countclassesmatching(${1:regex})]]></content>
 	<tabTrigger>countclassesmatching</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: countclassesmatching</description>
+	<description>CFEngine: countclassesmatching</description>
 </snippet>

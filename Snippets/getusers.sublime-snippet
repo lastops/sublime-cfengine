@@ -2,5 +2,5 @@
 	<content><![CDATA[getusers(${1:exclude_names}, ${2:exclude_ids})]]></content>
 	<tabTrigger>getusers</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getusers</description>
+	<description>CFEngine: getusers</description>
 </snippet>

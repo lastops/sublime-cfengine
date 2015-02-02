@@ -2,5 +2,5 @@
 	<content><![CDATA[string_split(${1:string}, ${2:regex}, ${3:maxent})]]></content>
 	<tabTrigger>string_split</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: string_split</description>
+	<description>CFEngine: string_split</description>
 </snippet>

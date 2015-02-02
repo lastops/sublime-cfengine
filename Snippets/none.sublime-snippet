@@ -2,5 +2,5 @@
 	<content><![CDATA[none(${1:regex}, ${2:list})]]></content>
 	<tabTrigger>none</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: none</description>
+	<description>CFEngine: none</description>
 </snippet>

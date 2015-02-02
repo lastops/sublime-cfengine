@@ -2,5 +2,5 @@
 	<content><![CDATA[getgid(${1:groupname})]]></content>
 	<tabTrigger>getgid</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getgid</description>
+	<description>CFEngine: getgid</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[getenv(${1:variable}, ${2:maxlength})]]></content>
 	<tabTrigger>getenv</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: getenv</description>
+	<description>CFEngine: getenv</description>
 </snippet>

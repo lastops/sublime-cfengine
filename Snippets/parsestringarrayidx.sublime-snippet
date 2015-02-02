@@ -2,5 +2,5 @@
 	<content><![CDATA[parsestringarrayidx(${1:array}, ${2:input}, ${3:comment}, ${4:split}, ${5:maxentries}, ${6:maxbytes})]]></content>
 	<tabTrigger>parsestringarrayidx</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: parsestringarrayidx</description>
+	<description>CFEngine: parsestringarrayidx</description>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[readintarray(${1:array}, ${2:filename}, ${3:comment}, ${4:split}, ${5:maxentries}, ${6:maxbytes})]]></content>
 	<tabTrigger>readintarray</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: readintarray</description>
+	<description>CFEngine: readintarray</description>
 </snippet>

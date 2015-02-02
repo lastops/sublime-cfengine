@@ -2,5 +2,5 @@
 	<content><![CDATA[hostswithclass(${1:class}, ${2:field})]]></content>
 	<tabTrigger>hostswithclass</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: hostswithclass</description>
+	<description>CFEngine: hostswithclass</description>
 </snippet>

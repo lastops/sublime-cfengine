@@ -2,5 +2,5 @@
 	<content><![CDATA[variance(${1:list})]]></content>
 	<tabTrigger>variance</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: variance</description>
+	<description>CFEngine: variance</description>
 </snippet>

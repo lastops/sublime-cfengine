@@ -2,5 +2,5 @@
 	<content><![CDATA[host2ip(${1:hostname})]]></content>
 	<tabTrigger>host2ip</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: host2ip</description>
+	<description>CFEngine: host2ip</description>
 </snippet>

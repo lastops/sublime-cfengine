@@ -2,5 +2,5 @@
 	<content><![CDATA[filesexist(${1:list})]]></content>
 	<tabTrigger>filesexist</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: filesexist</description>
+	<description>CFEngine: filesexist</description>
 </snippet>

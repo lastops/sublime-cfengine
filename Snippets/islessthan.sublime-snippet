@@ -2,5 +2,5 @@
 	<content><![CDATA[islessthan(${1:value1}, ${2:value2})]]></content>
 	<tabTrigger>islessthan</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: islessthan</description>
+	<description>CFEngine: islessthan</description>
 </snippet>

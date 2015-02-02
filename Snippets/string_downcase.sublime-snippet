@@ -2,5 +2,5 @@
 	<content><![CDATA[string_downcase(${1:data})]]></content>
 	<tabTrigger>string_downcase</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: string_downcase</description>
+	<description>CFEngine: string_downcase</description>
 </snippet>

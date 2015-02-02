@@ -2,5 +2,5 @@
 	<content><![CDATA[makerule(${1:target}, ${2:sources})]]></content>
 	<tabTrigger>makerule</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: makerule</description>
+	<description>CFEngine: makerule</description>
 </snippet>

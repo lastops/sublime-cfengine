@@ -2,5 +2,5 @@
 	<content><![CDATA[parsejson(${1:json_data})]]></content>
 	<tabTrigger>parsejson</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: parsejson</description>
+	<description>CFEngine: parsejson</description>
 </snippet>

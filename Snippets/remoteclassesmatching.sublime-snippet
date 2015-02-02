@@ -2,5 +2,5 @@
 	<content><![CDATA[remoteclassesmatching(${1:regex}, ${2:server}, ${3:encrypt}, ${4:prefix})]]></content>
 	<tabTrigger>remoteclassesmatching</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: remoteclassesmatching</description>
+	<description>CFEngine: remoteclassesmatching</description>
 </snippet>

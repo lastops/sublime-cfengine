@@ -2,5 +2,5 @@
 	<content><![CDATA[userexists(${1:user})]]></content>
 	<tabTrigger>userexists</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: userexists</description>
+	<description>CFEngine: userexists</description>
 </snippet>

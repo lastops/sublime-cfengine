@@ -2,5 +2,5 @@
 	<content><![CDATA[regarray(${1:array}, ${2:regex})]]></content>
 	<tabTrigger>regarray</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: regarray</description>
+	<description>CFEngine: regarray</description>
 </snippet>

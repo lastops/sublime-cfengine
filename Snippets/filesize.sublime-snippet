@@ -2,5 +2,5 @@
 	<content><![CDATA[filesize(${1:filename})]]></content>
 	<tabTrigger>filesize</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: filesize</description>
+	<description>CFEngine: filesize</description>
 </snippet>

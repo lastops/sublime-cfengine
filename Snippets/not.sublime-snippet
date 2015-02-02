@@ -2,5 +2,5 @@
 	<content><![CDATA[not(${1:expression})]]></content>
 	<tabTrigger>not</tabTrigger>
 	<scope>source.cfengine</scope>
-	<description>CFEngine3: not</description>
+	<description>CFEngine: not</description>
 </snippet>
